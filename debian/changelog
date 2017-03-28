@@ -1,0 +1,125 @@
+partitionmanager (3.0.1-1) UNRELEASED; urgency=medium
+
+  * Update to new upstream version
+
+ -- Jonathan Carter <jcarter@linux.com>  Wed, 22 Mar 2017 13:46:20 +0200
+
+partitionmanager (3.0.0-1) unstable; urgency=medium
+
+  * Update to new upstream version (Closes: #794438, #709474, LP: #1635756)
+  * Update standards version to 3.9.8
+  * Remove patches (no longer needed)
+  * Update compat to level 10
+  * Fix watch file (Closes: #788701)
+  * Replace ntfsprogs dependency with ntfs-3g (Closes: #731957)
+  * Replace partion typo with partition in control (Closes: 745290)
+  * New build-deps: extra-cmake-modules, qtbase5-dev, libkf5widgetsaddons-dev,
+                    libkf5xmlgui-dev, libkf5kiocore5, libkf5config-dev,
+                    libkf5crash-dev, libkf5doctools-dev, libkf5jobwidgets-dev,
+                    libkf5kio-dev, libkpmcore4-dev, libatasmart-dev
+  * wrap-and-sort
+  * Update homepage to new location on kde.org
+  * Update copyright file to machine readable format
+  * Add hardening export to debian/rules
+  * Remove 3 lintian-overrides (no longer needed)
+  * Add lintian override for insecure VCS URI
+  * Remove maintainer scripts (no longer needed)
+  * Add myself as uploader
+
+ -- Jonathan Carter <jcarter@linux.com>  Sat, 24 Dec 2016 18:15:08 +0200
+
+partitionmanager (1.0.3-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Backport support for libparted 3.1 from upstream (closes: #754580).
+  * Include cmake module needed for CHECK_FUNCTION_EXISTS.
+
+ -- Colin Watson <cjwatson@debian.org>  Sat, 19 Jul 2014 23:05:50 +0100
+
+partitionmanager (1.0.3-2) unstable; urgency=low
+
+  * Upload to unstable
+  * Update debian/control - Standards-Version & Vcs
+
+ -- Mark Purcell <msp@debian.org>  Sun, 12 May 2013 10:14:07 +1000
+
+partitionmanager (1.0.3-1) experimental; urgency=low
+
+  * New upstream release 
+    - Drop 01_ftbfs_binutils-gold.diff
+  * Add myself to Uploaders
+  * Added Vcs fields
+  * Updated Description - fixes description-synopsis-starts-with-article
+  * debian/compat -> 9
+
+ -- Mark Purcell <msp@debian.org>  Sun, 21 Apr 2013 09:22:56 +1000
+
+partitionmanager (1.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Explicitly add cmake to build dependencies.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Wed, 12 May 2010 13:14:01 +0300
+
+partitionmanager (1.0.1-2) unstable; urgency=low
+
+  [ George Kiagiadakis ]
+  * Remove the udev suggest since vol_id is now gone from udev and
+    partitionmanager can use blkid from util-linux, which is essential.
+
+  [ Fathi Boudra ]
+  * Add 01_ftbfs_binutils-gold patch. (Closes: #556051)
+  * Build against parted 2.2. (Closes: #574907)
+  * Bump standards-version to 3.8.4 (no changes needed).
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Tue, 23 Mar 2010 09:24:08 +0100
+
+partitionmanager (1.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Add uversionmangle=s/-/~/;y/A-Z/a-z/ to watch file.
+
+  [ George Kiagiadakis ]
+  * Update copyright years.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Sat, 23 Jan 2010 14:06:33 +0200
+
+partitionmanager (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump standards-version to 3.8.3 (no changes required).
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Sun, 23 Aug 2009 15:08:57 +0300
+
+partitionmanager (1.0.0~rc1-1) unstable; urgency=low
+
+  * New upstream release candidate.
+  * Disable building the partitionmanager kcm, as it
+    is requires systemsettings to be running as root and
+    it ends up being just confusing and not useful at all.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Sat, 15 Aug 2009 19:26:29 +0300
+
+partitionmanager (1.0.0~beta3-1) unstable; urgency=low
+
+  * New upstream beta release.
+  * Bump standards-version to 3.8.2 (No changes required).
+  * As a side effect, package will be rebuilt against
+    libparted1.8-12. (Closes: #534252)
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Tue, 23 Jun 2009 18:51:47 +0300
+
+partitionmanager (1.0.0~beta2-1) unstable; urgency=low
+
+  * New upstream beta release.
+  * Bump standards-version to 3.8.1.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Mon, 01 Jun 2009 18:17:12 +0300
+
+partitionmanager (1.0.0~beta1a-1) unstable; urgency=low
+
+  * Initial release (Closes: #512097)
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Wed, 15 Apr 2009 23:02:49 +0300

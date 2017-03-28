@@ -1,0 +1,55 @@
+Source: partitionmanager
+Section: admin
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Mark Purcell <msp@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Jonathan Carter <jcarter@linux.com>
+Build-Depends: cdbs (>= 0.4.51),
+               cmake,
+               debhelper (>= 10),
+               extra-cmake-modules,
+               kdelibs5-dev,
+               libatasmart-dev,
+               libblkid-dev,
+               libkf5config-dev,
+               libkf5crash-dev,
+               libkf5doctools-dev,
+               libkf5jobwidgets-dev,
+               libkf5kio-dev,
+               libkf5kiocore5,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               libparted0-dev (>= 2.2),
+               pkg-config,
+               pkg-kde-tools (>= 0.6.4),
+               qtbase5-dev,
+               uuid-dev
+Standards-Version: 3.9.8
+Homepage: https://www.kde.org/applications/system/kdepartitionmanager/
+Vcs-Svn: svn://anonscm.debian.org/pkg-kde/kde-extras/partitionmanager/trunk/
+Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-kde/kde-extras/partitionmanager/trunk/
+
+Package: partitionmanager
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: dosfstools,
+          hfsplus,
+          hfsutils,
+          jfsutils,
+          ntfs-3g,
+          reiser4progs,
+          reiserfsprogs,
+          xfsprogs
+Description: file, disk and partition management for KDE
+ Partition Manager is a utility program to help you manage the disk devices,
+ partitions and file systems on your computer. It allows you to easily create,
+ copy, move, delete, resize without losing data, backup and restore partitions.
+ .
+ Partition Manager supports a large number of file systems, including ext2/3/4,
+ reiserfs, NTFS, FAT16/32, jfs, xfs and more. Note that to gain support for a
+ specific file system other than ext2/3/4, you should install the corresponding
+ suggested package.
+ .
+ Partition Manager is based on libparted (like gparted) and makes use of the
+ KDE libraries for its user interface.
