@@ -1,0 +1,18 @@
+Description: add fdo keywords
+ Add freedesktop.org keywords to .desktop file
+ .
+ partitionmanager (3.0.1-1) UNRELEASED; urgency=medium
+ .
+   * Update to new upstream version
+Author: Jonathan Carter <jcarter@linux.com>
+
+--- partitionmanager-3.0.1.orig/src/org.kde.PartitionManager.desktop
++++ partitionmanager-3.0.1/src/org.kde.PartitionManager.desktop
+@@ -156,6 +156,6 @@ Comment[zh_TW]=管理磁碟、分割區�
+ Exec=partitionmanager
+ Icon=partitionmanager
+ Categories=System;Filesystem;KDE;Qt;
+-
++Keywords=partition;disk;
+ X-KDE-StartupNotify=true
+ 
