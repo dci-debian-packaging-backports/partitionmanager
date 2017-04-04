@@ -4,6 +4,7 @@ partitionmanager (3.0.1-1) unstable; urgency=medium
   * Add libkpmcore4-dev as build-dependency
   * Update fdo-keywords patch
   * Update VCS URIs
+  * Remove lintian-overrides (no longer needed)
 
  -- Jonathan Carter <jcarter@linux.com>  Wed, 22 Mar 2017 13:46:20 +0200
 
