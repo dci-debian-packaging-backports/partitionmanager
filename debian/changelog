@@ -1,4 +1,4 @@
-partitionmanager (3.0.1-1) unstable; urgency=medium
+partitionmanager (3.0.1-1) experimental; urgency=medium
 
   * Update to new upstream version
   * Add libkpmcore4-dev as build-dependency
