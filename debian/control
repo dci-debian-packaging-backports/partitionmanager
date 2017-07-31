@@ -10,7 +10,7 @@ Build-Depends: cdbs (>= 0.4.51),
                debhelper (>= 10),
                extra-cmake-modules,
                kdelibs5-dev,
-               libkpmcore4-dev,
+               libkpmcore-dev,
                libatasmart-dev,
                libblkid-dev,
                libkf5config-dev,
@@ -20,19 +20,30 @@ Build-Depends: cdbs (>= 0.4.51),
                libkf5kio-dev,
                libkf5kiocore5,
                libkf5widgetsaddons-dev,
+               libkf5config-dev,
+               libkf5iconthemes-dev,
+               libkf5jobwidgets-dev,
+               libkf5service-dev,
+               libkf5widgetsaddons-dev,
+               libkf5kio-dev,
+               libkf5crash-dev,
+               libkf5doctools-dev,
+               libkf5i18n-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
                libkf5xmlgui-dev,
                libparted0-dev (>= 2.2),
                pkg-config,
                pkg-kde-tools (>= 0.6.4),
                qtbase5-dev,
                uuid-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://www.kde.org/applications/system/kdepartitionmanager
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/kde-extras/partitionmanager.git/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/partitionmanager.git
 
 Package: partitionmanager
-Architecture: any
+Architecture: linux-any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: dosfstools,
           hfsplus,

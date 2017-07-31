@@ -1,3 +1,12 @@
+partitionmanager (3.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.0.0 (no changes)
+  * Update copyright years
+  * Set architecture to linux-any
+
+ -- Jonathan Carter <jcarter@linux.com>  Mon, 10 Jul 2017 14:36:42 +0200
+
 partitionmanager (3.0.1-1) experimental; urgency=medium
 
   * Update to new upstream version
@@ -16,7 +25,7 @@ partitionmanager (3.0.0-1) unstable; urgency=medium
   * Update compat to level 10
   * Fix watch file (Closes: #788701)
   * Replace ntfsprogs dependency with ntfs-3g (Closes: #731957)
-  * Replace partion typo with partition in control (Closes: 745290)
+  * Fix typo with partition in control (Closes: 745290)
   * New build-deps: extra-cmake-modules, qtbase5-dev, libkf5widgetsaddons-dev,
                     libkf5xmlgui-dev, libkf5kiocore5, libkf5config-dev,
                     libkf5crash-dev, libkf5doctools-dev, libkf5jobwidgets-dev,
