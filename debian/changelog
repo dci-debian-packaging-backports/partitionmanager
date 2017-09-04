@@ -1,11 +1,12 @@
 partitionmanager (3.1.0-1) unstable; urgency=medium
 
   * New upstream release
-  * Update standards version to 4.0.0 (no changes)
+  * Update standards version to 4.1.0.0 (no changes)
   * Update copyright years
   * Set architecture to linux-any
+  * Update maintainer e-mail address
 
- -- Jonathan Carter <jcarter@linux.com>  Mon, 10 Jul 2017 14:36:42 +0200
+ -- Jonathan Carter <jcc@debian.org>  Mon, 10 Jul 2017 14:36:42 +0200
 
 partitionmanager (3.0.1-1) experimental; urgency=medium
 
