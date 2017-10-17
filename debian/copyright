@@ -5,7 +5,9 @@ Comment: This package was debianized by George Kiagiadakis <gkiagiad@csd.uoc.gr>
          Tue, 10 Feb 2009 18:18:33 +0200
 
 Files: *
-Copyright: 2008-2010, Volker Lanz <vl@fidra.de>
+Copyright: 2016-2017, Andrius Štikonas <andrius@stikonas.eu>
+           2016, Chantara Tith <tith.chantara@gmail.com>
+           2008-2010, Volker Lanz <vl@fidra.de>
            2006-2008, Pedro Lopez-Cabanillas <plcl@users.sourceforge.net>
 License: GPL-2+
 

@@ -1,3 +1,13 @@
+partitionmanager (3.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update debian/copyright
+  * Update standards version to 4.1.1
+  * Build-depend on libparted-dev rather than libparted0-dev (Closes: 878627)
+  * Drop fdo-desktop-keywords patch (merged upstream)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 16 Oct 2017 10:03:12 +0200
+
 partitionmanager (3.1.2-1) unstable; urgency=medium
 
   * New upstream release
