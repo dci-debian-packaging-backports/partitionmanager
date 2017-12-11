@@ -9,7 +9,6 @@ Build-Depends: cdbs (>= 0.4.51),
                cmake,
                debhelper (>= 10),
                extra-cmake-modules,
-               kdelibs5-dev,
                libkpmcore-dev (>= 3.2.0),
                libatasmart-dev,
                libblkid-dev,
@@ -37,7 +36,7 @@ Build-Depends: cdbs (>= 0.4.51),
                pkg-kde-tools (>= 0.6.4),
                qtbase5-dev,
                uuid-dev
-Standards-Version: 4.1.1
+Standards-Version: 4.1.2
 Homepage: https://www.kde.org/applications/system/kdepartitionmanager
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/kde-extras/partitionmanager.git/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/partitionmanager.git
