@@ -1,3 +1,12 @@
+partitionmanager (3.3.1-2) unstable; urgency=medium
+
+  * Add required build-dependencies previously removed in error:
+    - libkf5iconthemes-dev
+    - libkf5kio-dev
+    - libkf5service-dev
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 09 Feb 2018 13:47:37 +0200
+
 partitionmanager (3.3.1-1) unstable; urgency=medium
 
   * Upload to unstable (Closes: #888729)
